@@ -11,7 +11,7 @@ const customer = {
     return this.discount;
   },
   setDiscount(value) {
-    discount = value;
+    this.discount = value;
   },
   getOrders() {
     return this.orders;
